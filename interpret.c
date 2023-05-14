@@ -11,6 +11,7 @@ void interpret(char *opcode, unsigned int line_number, stack_t **stack)
 	instruction_t op_func[] = {
 		{"push", _push},
 		{"pall", _pall},
+		{"pint", _pint},
 		{NULL, NULL}
 	};
 	int i = 0;
