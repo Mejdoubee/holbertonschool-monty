@@ -15,6 +15,10 @@ void interpret(char *opcode, unsigned int line_number, stack_t **stack)
 	};
 	int i = 0;
 
+	if (!opcode)
+	{
+		return;
+	}
 	while (op_func[i].opcode)
 	{
 		if (strcmp(opcode, op_func[i].opcode) == 0)
