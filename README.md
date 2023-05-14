@@ -52,4 +52,3 @@ The program frees all dynamically allocated memory before exiting, ensuring ther
 
 The program has extensive error handling for scenarios such as incorrect usage, inability to open the file, invalid instructions, invalid arguments to instructions, and failures to malloc memory. In such cases, the program exits with the status `EXIT_FAILURE`.
 
-# holbertonschool-monty
