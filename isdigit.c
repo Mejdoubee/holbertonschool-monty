@@ -11,6 +11,10 @@ int is_all_digits(char *arg)
 	size_t i = 0;
 	size_t len = strlen(arg);
 
+	if (arg[0] == '-')
+	{
+		i = 1;
+	}
 	for (; i < len; i++)
 	{
 		if (arg[i] < '0' || arg[i] > '9')
