@@ -42,5 +42,6 @@ void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
 int is_all_digits(char *arg);
 void free_stack(stack_t **stack);
+void _pint(stack_t **stack, unsigned int line_number);
 
 #endif
