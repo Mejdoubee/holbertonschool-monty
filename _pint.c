@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-* _pint = Prints the value at the top of the stack
+* _pint - Prints the value at the top of the stack
 * @stack: Double pointer to the top of the stack
 * @line_number: The line number where the pint opcode is located
 *
