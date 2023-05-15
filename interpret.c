@@ -12,6 +12,7 @@ void interpret(char *opcode, unsigned int line_number, stack_t **stack)
 		{"push", _push},
 		{"pall", _pall},
 		{"pint", _pint},
+		{"pop", _pop},
 		{NULL, NULL}
 	};
 	int i = 0;
