@@ -13,6 +13,7 @@ void interpret(char *opcode, unsigned int line_number, stack_t **stack)
 		{"pall", _pall},
 		{"pint", _pint},
 		{"pop", _pop},
+		{"swap", _swap},
 		{NULL, NULL}
 	};
 	int i = 0;
